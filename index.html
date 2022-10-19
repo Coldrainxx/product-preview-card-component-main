@@ -19,7 +19,17 @@
     <main>
       <div class="container">
         <div class="card">
-          <div class="card-elements">
+          <div class="card-photo">
+            <picture>
+              <source media="max-width: 650px" srcset="./images/image-product-mobile.jpg">
+              <img
+                src="./images/image-product-desktop.jpg"
+                alt="Chanel"
+                class="card-img"
+              />
+            </picture>
+          </div>
+          <div class="card-info">
             <div class="card-text">
               <p class="card-item-category uppercase">perfume</p>
               <h3 class="card-item-name">Gabrielle Essence Eau De Parfum</h3>
@@ -33,14 +43,18 @@
                 <p class="card-item-cost">$169.99</p>
               </div>
             </div>
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <div class="btn">
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
           </div>
         </div>
         <div class="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
-          >. Coded by <a href="https://www.frontendmentor.io/profile/Coldrainxx">Coldrainxx</a>.
+          >. Coded by
+          <a href="https://www.frontendmentor.io/profile/Coldrainxx">Coldrainxx</a
+          >.
         </div>
       </div>
     </main>
